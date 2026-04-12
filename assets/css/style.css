@@ -1,1 +1,54 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--background);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-center {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.dark-mode {
+  --background: #121212;
+  --text: #ffffff;
+}
+
+main {
+  margin-top: 80px;
+}
